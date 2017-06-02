@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <title> Assignment 8.1---[Design HTML form]</title>
+    <style>
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid white;
+            box-sizing: border-box;
+            font-family: tahoma;
+        }
+        
+        button {
+            background-color: white;
+            color: blue;
+            padding: 14px 20px;
+            margin: 8px 0;
+            display: -webkit-inline-box;
+            border: 1px solid darkblue;
+            cursor: pointer;
+            width: 40%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form action="" method="">
+        <div style="background:lightgrey;width:450px">
+            <p style="background:#100;">nbjb<br/></p>
+            <h2 style="color:grey">Enter the System</h2>
+            <p style="color:grey">It is necessary to login with your account in order to sign up for a course</p>
+
+            <table cellpadding="4" cellspacing="2" border="0">
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td style="color:grey;font-size:100%;font-weight:bold">ARE YOU NEW ?
+                                    <label style="color:#125;font-size:100%;font-weight:bold">REGISTER</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>Name</label><input type="text" name="name" id="nameId" style="border: 2px solid red">
+                                </td>
+                                <tr>
+                                    <td> <label>Email</label><input type="text" name="email" id="emailId" style="border:2px solid red">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right"><button type="button">Register</button>
+                                    </td>
+                                </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table style="background:#139;" cellpadding="5" cellspacing="2">
+                            <tr>
+                                <td style="color:white;font-size:100%;font-weight:bold">Already a Student Login
+                                    <table cellpadding="2">
+                                        <tr>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <label>Name</label><input type="text" name="name" id="nameId"><br/><br/>
+                                                <label>Email</label><input type="text" name="email" id="emailId"><br/><br/>
+                                                <input type="checkbox"><label>Remember me</label>
+                                                <button type="button">Login</button>
+                                            </td>
+
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                </td>
+                            </tr>
+                            </tr>
+                        </table>
+        </div>
+    </form>
+</body>
+
+</html>
